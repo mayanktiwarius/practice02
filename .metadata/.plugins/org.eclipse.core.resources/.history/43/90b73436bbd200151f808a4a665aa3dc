@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+
+public class LIS {
+	
+	ArrayList<HtWt> getLis(ArrayList<HtWt> items) {
+		Collections.sort(items);
+		return null;
+	}
+
+}

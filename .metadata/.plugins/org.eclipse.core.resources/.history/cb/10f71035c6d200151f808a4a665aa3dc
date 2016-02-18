@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+
+public class RunLis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<HtWt> items = new ArrayList<HtWt>();
+		items.add(new HtWt(13, 13));
+		items.add(new HtWt(14, 14));
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(11, 11));
+		items.add(new HtWt(12, 12));
+		items.add(new HtWt(15, 15));
+		
+		LIS lis = new LIS();
+		lis.getLis(items);
+
+	}
+
+}

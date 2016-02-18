@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+
+public class RunLis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<HtWt> items = new ArrayList<HtWt>();
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(10, 10));
+		items.add(new HtWt(10, 10));
+
+	}
+
+}

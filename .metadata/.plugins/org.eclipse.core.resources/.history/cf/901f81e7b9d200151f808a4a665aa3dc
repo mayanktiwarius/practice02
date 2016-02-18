@@ -1,0 +1,14 @@
+
+public class HtWt  implements Comparable<HtWt>{
+
+	private float height;
+	
+	private float weight;
+	@Override
+	public int compareTo(HtWt o) {
+		// TODO Auto-generated method stub
+		
+		return 0;
+	}
+
+}

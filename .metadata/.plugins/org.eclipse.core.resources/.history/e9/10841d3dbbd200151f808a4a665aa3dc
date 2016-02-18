@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+
+public class LIS {
+	
+	ArrayList<HtWt> getLis(ArrayList<HtWt> items) {
+		Collections.sort(items);
+		return genLis(items);
+	}
+
+	private ArrayList<HtWt> genLis(ArrayList<HtWt> items) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

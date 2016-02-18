@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+
+public class LIS {
+	
+	public ArrayList<HtWt> getLis(ArrayList<HtWt> items) {
+		Collections.sort(items);
+		return genLis(items);
+	}
+
+	private ArrayList<HtWt> genLis(ArrayList<HtWt> items) {
+		// TODO Auto-generated method stub
+		ArrayList<HtWt>[] solutions = new ArrayList[items.size()];
+		genAllLis(items, solutions,0);
+		
+		ArrayList<HtWt> bestSequence = null;
+		for(int i = 0; i < solutions.length; i++) {
+			bestSequence = seqWithMaxLenght(bestSequence, solutions[i]);
+		}
+		
+		return bestSequence;
+	}
+
+	private void genAllLis(ArrayList<HtWt> items, ArrayList<HtWt>[] solutions, int index) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+	
+
+}

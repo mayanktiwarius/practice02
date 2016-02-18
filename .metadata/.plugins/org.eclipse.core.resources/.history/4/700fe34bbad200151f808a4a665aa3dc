@@ -1,0 +1,32 @@
+
+public class HtWt  implements Comparable<HtWt>{
+
+	private float height;
+	
+	private float weight;
+	
+	@Override
+	public int compareTo(HtWt o) {
+		// TODO Auto-generated method stub
+		
+		return 0;
+	}
+
+	public float getHeight() {
+		return height;
+	}
+
+	public void setHeight(float height) {
+		this.height = height;
+	}
+
+	public float getWeight() {
+		return weight;
+	}
+
+	public void setWeight(float weight) {
+		this.weight = weight;
+	}
+
+	
+}
